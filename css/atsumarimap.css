@@ -1,0 +1,187 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.bgimg {
+  background-image: url('../img/city.jpg');;
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.middle {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #31aade;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+
+}
+
+.logo img {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: auto;
+  padding-top: 25px;
+  border: none;
+}
+
+.slides {
+width: 90%;
+margin: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
+.header {
+  font-weight: 100;
+}
+
+.timer {
+  font-weight: 100;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  width: 300px;
+}
+
+.timeText {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+table {
+  margin: 20px auto 20px auto;
+}
+
+table td {
+  width: 60px;
+}
+
+
+
+.attribution {
+  bottom: 0px;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+  border: 0;
+  height: 1px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: justify;
+  margin: 30px 30px 30px 30px;
+}
+
+.button {
+  position: relative;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid white;
+  font-size: 14px;
+  font-weight: 300px;
+  padding: 10px;
+}
+
+/* unvisited link */
+a {
+  te
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  text-decoration: none;
+  transform: translateY(4px);
+  transform: translateX(4px);
+}
+
+/* selected link */
+a:active {
+  color: white;
+  transform: translateY(4px);
+  transform: translateX(4px);
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 52.56%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1601px) {
+  .middle {
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+  .middle {
+    width: 700px;
+  }
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .middle {
+    width: 300px;
+  }
+}
