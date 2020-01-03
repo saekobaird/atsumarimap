@@ -58,6 +58,17 @@ width: 90%;
 margin: auto;
 }
 
+.attribution {
+  position: absolute;
+  bottom: 0px;
+  color: #31aade;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  z-index: 2;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
   /* remove scrollbar space */
@@ -94,12 +105,7 @@ table td {
 
 
 
-.attribution {
-  bottom: 0px;
-  text-align: center;
-  font-size: 12px;
-  padding: 10px;
-}
+
 
 hr {
   margin: auto;
